@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
+
+:root{
+    
+}
+*{
+    font-family: 'Be Vietnam', sans-serif;
+    margin:0px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    padding: 10vh 0px;
+    font-size: 0.82rem;
+    align-items: center;
+}
+@media(min-width:350px)
+{
+    header div{
+        margin: 0vw 15vw;
+    }
+}
+@media(max-width:350px)
+{
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div{
+        margin: 0vw 5vw;
+        
+    }
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+      
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.botonPrincipal{
+    background-color: #F3603B;
+    color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    width: 124px;
+    
+}
+
+/*SECCION TITULO*/
+.titulo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0vw 12vw;
+    align-items: center;
+}
+.titulo div{
+    margin:0vw 1vw;
+    width: 50%;
+}
+
+.titulo div img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:350px)
+{
+    .titulo{
+
+        flex-direction: column-reverse;
+        margin: 0vh 2vw;
+        justify-content: center;
+        
+    }
+    .titulo div{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .titulo div p,h1{
+        text-align: justify;
+    }
+    
+}
+
+.titulo h1{
+    font-size:2.8rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+.titulo p{
+    padding-right:5vw;;
+}
+.titulo button{
+    margin-top: 2vh;
+}
+
+ @media(max-width:350px){
+    .titulo h1{
+        font-size:1.8rem;
+        font-weight: bold;
+        margin-bottom: 2vh;
+        text-align: center;
+    }
+    .titulo p{
+        padding: 0px;
+        text-align: center;
+        padding: 0px 1vw;
+        
+    }
+    .titulo button{
+        margin-top: 3vh;
+    }
+    } 
+
+/*SECCION CONTENIDO*/
+.contenido{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 12vw;;
+}
+/* .contenido div{
+    width: 50%;
+    
+} SI PONGO ESTO SE ME ACORTAN LOS TITULOS DE LOS ARTICULOS Y NO SE PORQUE */
+.contenido h2{
+    margin-bottom: 5vh;
+    font-size: 2rem;
+    padding-right: 10vw;
+}
+.cont-titulo p{
+    padding-right: 12vw;
+    text-align: justify;
+}
+.subtitulos{
+    display: flex;
+    align-items: center;
+}
+.subtitulos{
+    width: 100%;
+}
+.subtitulos span{
+    margin-right: 3vw;
+}
+.contenido article p{
+    color:#B3B2B7;
+    margin:2vh 0vw 2vh 8vw;
+}
+span{
+    background-color: #F3603B;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 25px;
+    width: 20px;
+    text-align: center;
+}
+@media(max-width:350px)
+{
+    .contenido{
+        margin: 0px;
+        margin-top: 2vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .contenido div{
+        margin-bottom: 2vh;;
+    }
+    .cont-titulo{
+        text-align: center;
+        margin-left: 2vw;
+    }
+    .cont-titulo p{
+        padding: 0px;
+    }
+    .subtitulos{
+       background-color: rgb(250, 201, 201, 50%);
+    }
+    .contenido article{
+        margin-top: 5vh;
+    }
+    .contenido article p{
+        margin-left: 0px;;
+    }
+}
+/*SECCION COMENTARIOS*/
+.comentarios{
+    margin: 15vh 6vw;
+    text-align: center;
+    
+}
+.comentarios h2{
+    margin-bottom: 7vh;;
+    font-size: 2.5rem;
+}
+.quotations {
+    display: flex;
+    font-size: 1rem;
+    background-color: #FAFAFA;
+}
+.quotations img{
+    position: relative;
+    bottom: 4.5vh;; 
+}
+.quotations div h6{
+    margin-bottom: 3vh;
+}
+
+.quotations p{
+    color: #B3B2B7;
+    margin:0vh 2vw 5vh 2vw;;
+}
+.comentarios button{
+    margin-top: 40px;
+}
+@media(max-width:350px)
+{
+    .comentarios h2{
+        font-size: 1.8rem;
+    }
+    .quotations{
+        flex-direction: column;
+    }
+}
+/*SECCION BANNER*/
+.banner{
+    display: flex;
+    margin: 0px 12vw;
+    background-color:#F3613C;
+    color: white;
+    align-items: center;
+    height: 30vh;
+}
+.banner div{
+    font-size: 1.3rem;
+    width: 50%; 
+}
+.banner h2{
+    padding-left: 30%;;
+}
+.banner button{
+    position: relative;
+    left: 50%;
+}
+.botonSecundario
+{
+    background-color:white; 
+    color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 124px;
+   
+}
+@media(max-width:350px)
+{
+    .banner{
+        margin: 0px;
+        flex-direction: column;
+        justify-content: center;/*no me lo toma*/
+       
+        width: 100%;
+        height: 50vh ;
+    }
+    .banner div{
+        margin: 0px;
+        
+    }
+    .titulo-banner h2{
+        padding: 0px;
+        font-size:1.8rem; 
+        text-align: center;
+        margin: 2vh 0;
+    }
+    .banner button{
+        position: static;
+        margin-bottom: 2vh;
+    }
+}
+/*SECCION FOOTER*/
+footer{
+    padding:5vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 12vw;
+    background-color: #1E1E26;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2vh 0px;
+}
+.iconos{
+
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    font-size: 1.2rem;
+}
+
+footer .navegador{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0px;
+   
+}
+footer .nav1{
+    padding-right: 8vw;
+}
+footer ul li{
+    padding-bottom: 2vh;
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+}
+footer button{
+    background-color: #F3603B;
+    color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    width: 50px;
+}
+.footer4 input{
+    background-color: white;
+    color: grey;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;  
+    width: 200px; 
+}
+.footer4 p{
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 10vh;
+    margin-left: 4vw;
+}
+@media(min-width:350px){
+    .derechos2{
+        display: none;
+    }
+}
+@media(max-width:350px)
+{
+    footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0px;
+    }
+    .footer4{
+        margin-bottom: 5vh;
+    }
+    footer .logos{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .iconos{
+        margin-bottom: 5vh;
+    }
+    .logos img{
+        height: 20%;
+        width: 50%;
+        position: relative;
+        left: 20%;
+    }
+    .derechos{
+        display: none;
+    }
+    .derechos2{
+        order: -1;
+        color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 2vh 0 1vh 0;
+
+    }
+
+}
+
+
+ @media(min-width:350px)
+{
+    .hamburger{
+        display: none;
+    } 
+}@media(max-width:350px)
+{
+    header nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    
+    
+    .contenido{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    
+}
+    
+/*HOOVER*/
+.iconos i:hover{
+    cursor: pointer;
+    color: #F3603B;
+}
+.botonPrincipal:hover{
+    cursor: pointer;
+    background-color: #ee9984;
+}
+
+.botonSecundario:hover{
+    cursor: pointer;
+    color: #ee9984;
+}
+
+.footer4 button:hover{
+    cursor: pointer;
+    background-color: #eeb7a9;
+}
+footer ul li a:hover{
+    cursor: pointer;
+    color:#F3603B;
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    color:grey;
+}
+
